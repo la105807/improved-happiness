@@ -3,8 +3,10 @@ let quotes = [`"All that we see or seem is but a dream within a dream."
 `"The way to get started is to quit talking and begin doing." 
 - Walt Disney`,
 `"If life were predictable it would cease to be life, and be without flavor." 
-- Eleanor Roosevelt`];
+- Eleanor Roosevelt`,
+`"The greatest glory in living lies not in never falling, but in rising every time we fall."
+- Nelson Mandela`];
 
-let index = Math.floor(Math.random() * 3);
+let index = Math.floor(Math.random() * 4);
 
 console.log(quotes[index]);
